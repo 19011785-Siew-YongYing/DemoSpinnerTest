@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
                     case 0: // Your code for item 1 selected
-                        display.setText("Spinner Item, Yes Selected ");
+                        display.setText("Spinner Item, Yes is Selected");
                         break;
 
                     case 1: // Your code for item 1 selected
-                        display.setText("Spinner Item, No Selected ");
+                        display.setText("Spinner Item, No is Selected");
                         break;
                 }
             }
